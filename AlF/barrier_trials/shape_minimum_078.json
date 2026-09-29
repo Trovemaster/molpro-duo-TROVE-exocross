@@ -1,0 +1,7 @@
+{
+  "barrier_r_min": 1.98,
+  "barrier_r_max": 2.20,
+  "barrier_above_limit_min": -5600,
+  "barrier_above_limit_max": -4950,
+  "outer_well_depth_max": 6500
+}

@@ -1,0 +1,9 @@
+run,tail_threshold,mean_r_threshold,below_limit_localized,above_limit_localized
+box8_v250,0.1,4,17,11
+box8_v250,0.01,4,17,10
+box8_v250,0.001,4,17,9
+box8_v250,0.0001,4,17,9
+box12_v400,0.1,4,17,10
+box12_v400,0.01,4,17,10
+box12_v400,0.001,4,17,9
+box12_v400,0.0001,4,17,9

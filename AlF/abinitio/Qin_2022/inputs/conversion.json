@@ -1,0 +1,27 @@
+{
+  "citation": "Qin, Bai and Liu 2022, MNRAS 510, 3011, DOI 10.1093/mnras/stab3598",
+  "source_data_sha256": "c031a4d4d298e7b60523a1426c464dcba892fccb4cb850fcec772f3136410f60",
+  "source_model_sha256": "50b4a8c3255b49a51827cf5115cd1abdd20246f274fe2f3d91ddc1ac61ccee2d",
+  "source_units": [
+    "angstrom",
+    "cm-1"
+  ],
+  "point_count": 66,
+  "reference_minimum_cm": -9771.8,
+  "reference_minimum_method": "minimum published grid value",
+  "target_te_cm": 43949.99358272087,
+  "model_re_angstrom": 1.6485000591044585,
+  "shift_cm": 53721.79358272087,
+  "distance_range_angstrom": [
+    1.05,
+    9.0
+  ],
+  "last_point_energy_cm": 53695.37358272087,
+  "fit_factor": 100.0,
+  "weighting": {
+    "type": "PS1997",
+    "alpha": 0.001,
+    "cutoff_cm": 18000
+  },
+  "status": "Reference added; model parameters and experimental data unchanged; no refit performed"
+}

@@ -1,0 +1,150 @@
+{
+  "status": "diagnostic, not selected",
+  "fit_scale": 0.1,
+  "robust": 0,
+  "frozen_objects": "All except A-state PEC",
+  "complete_proposals": 2,
+  "evaluated_proposal_index_zero_based": 0,
+  "shape_audit": {
+    "ok": true,
+    "range_angstrom": [
+      0.7,
+      1000
+    ],
+    "constraints": {
+      "barrier_r_min": 2.25,
+      "barrier_r_max": 2.9,
+      "barrier_above_limit_min": 2500,
+      "barrier_above_limit_max": 9000,
+      "outer_well_depth_max": 20
+    },
+    "fields": {
+      "1": {
+        "ok": true,
+        "extrema": [
+          [
+            1.6548399999999999,
+            0.03809012492166177,
+            "min"
+          ]
+        ],
+        "value_at_1000": 55564.02471
+      },
+      "2": {
+        "ok": true,
+        "extrema": [
+          [
+            1.6504599999999998,
+            43944.09616034408,
+            "min"
+          ],
+          [
+            2.57172,
+            60481.71507500201,
+            "max"
+          ],
+          [
+            4.8902,
+            55545.82623456365,
+            "min"
+          ]
+        ],
+        "value_at_1000": 55564.02470999992
+      },
+      "('L+', 2, 1)": {
+        "ok": true,
+        "max_abs_analytic": 2.42033992384206
+      },
+      "('BOBROT', 1, 1)": {
+        "ok": true,
+        "max_abs": 0.0009132566682717355
+      }
+    }
+  },
+  "baseline": {
+    "experiment": {
+      "count": 1834,
+      "positive_weight_count": 1822,
+      "rms_cm": 0.45158420463456106,
+      "weighted_rms_cm": 0.4509957295212156,
+      "max_abs_cm": 11.785176332610718,
+      "assignment_mismatches": 0,
+      "marked_count": 0,
+      "unmatched_positive_weight_count": 0,
+      "state_v_mismatches": 0,
+      "zero_duo_weight_count": 0,
+      "inactive_unknown_state_rows": [],
+      "by_state": {
+        "1": {
+          "count": 731,
+          "positive_weight_count": 731,
+          "rms_cm": 0.002671572697390302,
+          "weighted_rms_cm": 0.002671572697390302,
+          "max_abs_cm": 0.018165159436648537,
+          "assignment_mismatches": 0,
+          "marked_count": 0,
+          "unmatched_positive_weight_count": 0,
+          "state_v_mismatches": 0,
+          "zero_duo_weight_count": 0
+        },
+        "2": {
+          "count": 1103,
+          "positive_weight_count": 1091,
+          "rms_cm": 0.5835761099848401,
+          "weighted_rms_cm": 0.5821758210852741,
+          "max_abs_cm": 11.785176332610718,
+          "assignment_mismatches": 0,
+          "marked_count": 0,
+          "unmatched_positive_weight_count": 0,
+          "state_v_mismatches": 0,
+          "zero_duo_weight_count": 0
+        }
+      },
+      "energy_precision": "native 12 decimal places"
+    },
+    "reference_weighted_rms_cm": 2604.635136086885
+  },
+  "evaluation": {
+    "experiment": {
+      "count": 1834,
+      "positive_weight_count": 1822,
+      "rms_cm": 20.063562485292405,
+      "weighted_rms_cm": 20.09414704414358,
+      "max_abs_cm": 36.42311460462224,
+      "assignment_mismatches": 0,
+      "marked_count": 0,
+      "unmatched_positive_weight_count": 0,
+      "state_v_mismatches": 0,
+      "zero_duo_weight_count": 0,
+      "inactive_unknown_state_rows": [],
+      "by_state": {
+        "1": {
+          "count": 731,
+          "positive_weight_count": 731,
+          "rms_cm": 0.002676433236176965,
+          "weighted_rms_cm": 0.002676433236176965,
+          "max_abs_cm": 0.018164993726713874,
+          "assignment_mismatches": 0,
+          "marked_count": 0,
+          "unmatched_positive_weight_count": 0,
+          "state_v_mismatches": 0,
+          "zero_duo_weight_count": 0
+        },
+        "2": {
+          "count": 1103,
+          "positive_weight_count": 1091,
+          "rms_cm": 25.92805016660272,
+          "weighted_rms_cm": 25.939067324891326,
+          "max_abs_cm": 36.42311460462224,
+          "assignment_mismatches": 0,
+          "marked_count": 0,
+          "unmatched_positive_weight_count": 0,
+          "state_v_mismatches": 0,
+          "zero_duo_weight_count": 0
+        }
+      },
+      "energy_precision": "native 12 decimal places"
+    },
+    "reference_weighted_rms_cm": 2416.728350846145
+  }
+}

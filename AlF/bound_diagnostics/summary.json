@@ -1,0 +1,111 @@
+{
+  "dissociation_cm": 55163.87708206083,
+  "zpe_cm": 400.147627939163,
+  "inner_bound_count": 3248,
+  "parity_counts": {
+    "f": 1624,
+    "e": 1624
+  },
+  "lowest_J": 1,
+  "lowest_J_inner_vmax": 16,
+  "highest_inner_bound_J": 144,
+  "observed_vmax": 6,
+  "observed_Jmax": 92.0,
+  "observed_raw_rows_checked": 1109,
+  "observed_positive_weight_rows": 1097,
+  "all_observations_localized_below_limit": true,
+  "highest_observed_energy": 51391.4294,
+  "observed_min_binding_cm": 3772.5435710608363,
+  "basis_100_to_180_bound_max_delta_cm": 1.0000003385357559e-05,
+  "independent_sinc_601_vs_native180_bound_max_delta_cm": 5.004258127883077e-07,
+  "independent_601_to_801_selected_bound_max_delta_cm": 4.190951585769653e-09,
+  "barriers": [
+    {
+      "J": 1,
+      "barrier_r": 2.553781856788996,
+      "barrier_energy": 60754.79909610834
+    },
+    {
+      "J": 40,
+      "barrier_r": 2.5519886792338036,
+      "barrier_energy": 61134.84181934321
+    },
+    {
+      "J": 92,
+      "barrier_r": 2.5443784090449566,
+      "barrier_energy": 62745.387768759705
+    },
+    {
+      "J": 144,
+      "barrier_r": 2.5303887120013377,
+      "barrier_energy": 65639.67493457974
+    },
+    {
+      "J": 145,
+      "barrier_r": 2.5300486027156888,
+      "barrier_energy": 65708.17058238789
+    },
+    {
+      "J": 200,
+      "barrier_r": 2.5057245026493153,
+      "barrier_energy": 70245.74785235326
+    },
+    {
+      "J": 260,
+      "barrier_r": 2.452322287589628,
+      "barrier_energy": 77035.23025827784
+    },
+    {
+      "J": 280,
+      "barrier_r": 2.4080522861654376,
+      "barrier_energy": 79799.28207869249
+    }
+  ],
+  "outer_f_channel": {
+    "f_outer_bound_count": 37,
+    "J1": [
+      {
+        "rmax": 160.0,
+        "step": 0.0025,
+        "J": 1,
+        "outer_index": 0,
+        "binding_cm": 12.494091602462639,
+        "mean_r": 5.209929656742865
+      },
+      {
+        "rmax": 160.0,
+        "step": 0.0025,
+        "J": 1,
+        "outer_index": 1,
+        "binding_cm": 5.370624845583411,
+        "mean_r": 6.03051658665238
+      },
+      {
+        "rmax": 160.0,
+        "step": 0.0025,
+        "J": 1,
+        "outer_index": 2,
+        "binding_cm": 1.736464330401562,
+        "mean_r": 7.506490334309655
+      },
+      {
+        "rmax": 160.0,
+        "step": 0.0025,
+        "J": 1,
+        "outer_index": 3,
+        "binding_cm": 0.32870009753533236,
+        "mean_r": 10.536075380049613
+      },
+      {
+        "rmax": 160.0,
+        "step": 0.0025,
+        "J": 1,
+        "outer_index": 4,
+        "binding_cm": 0.007727822020316461,
+        "mean_r": 23.54370146112678
+      }
+    ],
+    "max_J": 14
+  },
+  "scientific_status": "Extrapolation beyond observed v/J; localized above-limit states are resonance candidates only."
+}

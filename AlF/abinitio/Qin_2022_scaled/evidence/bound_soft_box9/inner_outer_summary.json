@@ -1,0 +1,14 @@
+[
+  {
+    "J": 1,
+    "inner_bound_count": 17,
+    "inner_vmax": 16,
+    "total_below_limit": 23,
+    "outer_below_limit": 6,
+    "inner_below_barrier": 20,
+    "barrier_r": 2.4252142857142855,
+    "barrier_cm": 56843.9676408366,
+    "minimum_inner_probability": 0.9999994349031822,
+    "observed_v0_v6_max_native_error_cm": 4.884714144282043e-07
+  }
+]

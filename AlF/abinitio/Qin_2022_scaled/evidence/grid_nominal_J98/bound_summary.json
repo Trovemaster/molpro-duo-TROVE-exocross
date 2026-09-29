@@ -1,0 +1,159 @@
+{
+  "dissociation_above_X_ground_cm": 55163.87708206083,
+  "zpe_cm": 400.147627939163,
+  "upper_state": "A1Pi",
+  "categories": {
+    "above_limit_box_state": 31167,
+    "above_limit_localized_candidate": 903,
+    "below_limit_diffuse": 394,
+    "below_limit_localized": 2808
+  },
+  "by_v": [
+    {
+      "v": 0,
+      "observed_Jmax": 83.0,
+      "localized_below_limit_Jmax": 98,
+      "count_e": 98,
+      "count_f": 98
+    },
+    {
+      "v": 1,
+      "observed_Jmax": 92.0,
+      "localized_below_limit_Jmax": 98,
+      "count_e": 98,
+      "count_f": 98
+    },
+    {
+      "v": 2,
+      "observed_Jmax": 92.0,
+      "localized_below_limit_Jmax": 98,
+      "count_e": 98,
+      "count_f": 98
+    },
+    {
+      "v": 3,
+      "observed_Jmax": 92.0,
+      "localized_below_limit_Jmax": 98,
+      "count_e": 98,
+      "count_f": 98
+    },
+    {
+      "v": 4,
+      "observed_Jmax": 83.0,
+      "localized_below_limit_Jmax": 98,
+      "count_e": 98,
+      "count_f": 98
+    },
+    {
+      "v": 5,
+      "observed_Jmax": 83.0,
+      "localized_below_limit_Jmax": 98,
+      "count_e": 98,
+      "count_f": 98
+    },
+    {
+      "v": 6,
+      "observed_Jmax": 61.0,
+      "localized_below_limit_Jmax": 98,
+      "count_e": 98,
+      "count_f": 98
+    },
+    {
+      "v": 7,
+      "observed_Jmax": null,
+      "localized_below_limit_Jmax": 98,
+      "count_e": 98,
+      "count_f": 98
+    },
+    {
+      "v": 8,
+      "observed_Jmax": null,
+      "localized_below_limit_Jmax": 98,
+      "count_e": 98,
+      "count_f": 98
+    },
+    {
+      "v": 9,
+      "observed_Jmax": null,
+      "localized_below_limit_Jmax": 96,
+      "count_e": 96,
+      "count_f": 96
+    },
+    {
+      "v": 10,
+      "observed_Jmax": null,
+      "localized_below_limit_Jmax": 89,
+      "count_e": 89,
+      "count_f": 89
+    },
+    {
+      "v": 11,
+      "observed_Jmax": null,
+      "localized_below_limit_Jmax": 81,
+      "count_e": 81,
+      "count_f": 81
+    },
+    {
+      "v": 12,
+      "observed_Jmax": null,
+      "localized_below_limit_Jmax": 73,
+      "count_e": 73,
+      "count_f": 73
+    },
+    {
+      "v": 13,
+      "observed_Jmax": null,
+      "localized_below_limit_Jmax": 64,
+      "count_e": 64,
+      "count_f": 64
+    },
+    {
+      "v": 14,
+      "observed_Jmax": null,
+      "localized_below_limit_Jmax": 54,
+      "count_e": 54,
+      "count_f": 54
+    },
+    {
+      "v": 15,
+      "observed_Jmax": null,
+      "localized_below_limit_Jmax": 41,
+      "count_e": 41,
+      "count_f": 41
+    },
+    {
+      "v": 16,
+      "observed_Jmax": null,
+      "localized_below_limit_Jmax": 21,
+      "count_e": 21,
+      "count_f": 21
+    },
+    {
+      "v": 17,
+      "observed_Jmax": null,
+      "localized_below_limit_Jmax": 22,
+      "count_e": 1,
+      "count_f": 1
+    },
+    {
+      "v": 18,
+      "observed_Jmax": null,
+      "localized_below_limit_Jmax": 23,
+      "count_e": 1,
+      "count_f": 1
+    },
+    {
+      "v": 20,
+      "observed_Jmax": null,
+      "localized_below_limit_Jmax": 24,
+      "count_e": 1,
+      "count_f": 1
+    }
+  ],
+  "observed_checked": 1103,
+  "all_checked_observations_localized_below_limit": true,
+  "Jmax_calculated": 98,
+  "J_cutoff_reached_by_localized_below_limit_levels": true,
+  "counting_convention": "Each e/f rovibronic level counted once; excludes M and nuclear-spin degeneracy.",
+  "warning": "b/u is localization only, not an inner-well assignment: outer-well and mixed levels may also be b. High printed v values include box-state ordering. Above-limit candidates are not widths or established resonances."
+}

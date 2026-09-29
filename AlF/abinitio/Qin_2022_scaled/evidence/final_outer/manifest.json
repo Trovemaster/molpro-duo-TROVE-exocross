@@ -1,0 +1,14 @@
+{
+  "source": "C:\\Users\\Sergey\\Documents\\ChatGPT\\Duo\\AlF_refinement\\qin_scaled\\outer_final.inp",
+  "source_sha256": "acaaee2fc19f23ab0074fd60b86d62aeb1e912a6ab84bfafeeffe5fd1591877b",
+  "input_sha256": "acaaee2fc19f23ab0074fd60b86d62aeb1e912a6ab84bfafeeffe5fd1591877b",
+  "duo": "C:\\sergei\\programs\\Duo\\build\\ifx\\duo.exe",
+  "duo_sha256": "3d45ab6e21673fd13a04d25f9ea9b20145a81a45d21d9601d2c2db49787c1e85",
+  "threads": 4,
+  "pid": 34712,
+  "returncode": 0,
+  "elapsed_seconds": 7.01600000000326,
+  "controlled_checkpoint_stop": false,
+  "complete_checkpoint": true,
+  "native_diagnostics_present": true
+}

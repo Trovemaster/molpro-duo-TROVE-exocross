@@ -1,0 +1,1246 @@
+{
+  "original": {
+    "label": "Selected reference",
+    "source": "C:\\Users\\Sergey\\Documents\\ChatGPT\\Duo\\AlF_refinement\\low_barrier\\native_original",
+    "sha256": "50b4a8c3255b49a51827cf5115cd1abdd20246f274fe2f3d91ddc1ac61ccee2d",
+    "minimum_absolute_cm": 43949.99358272084,
+    "minimum_r": 1.6485000542381474,
+    "barrier_absolute_cm": 61154.946724047506,
+    "barrier_r": 2.553781856788996,
+    "barrier_above_minimum_cm": 17204.953141326667,
+    "barrier_above_limit_cm": 5590.922014047508,
+    "extrema": [
+      [
+        1.64827,
+        43949.99924222604,
+        "min"
+      ],
+      [
+        2.55347,
+        61154.93865402548,
+        "max"
+      ],
+      [
+        4.92378,
+        55546.36869138418,
+        "min"
+      ]
+    ],
+    "finite_to_1000": true,
+    "default_shape_audit": {
+      "ok": true,
+      "range_angstrom": [
+        0.7,
+        1000
+      ],
+      "constraints": {
+        "barrier_r_min": 2.25,
+        "barrier_r_max": 2.9,
+        "barrier_above_limit_min": 2500,
+        "barrier_above_limit_max": 9000,
+        "outer_well_depth_max": 20
+      },
+      "fields": {
+        "1": {
+          "ok": true,
+          "extrema": [
+            [
+              1.6548399999999999,
+              0.03809012492166177,
+              "min"
+            ]
+          ],
+          "value_at_1000": 55564.02471
+        },
+        "2": {
+          "ok": true,
+          "extrema": [
+            [
+              1.649,
+              43950.02026576482,
+              "min"
+            ],
+            [
+              2.5542,
+              61154.93222419802,
+              "max"
+            ],
+            [
+              4.92378,
+              55546.36869138418,
+              "min"
+            ]
+          ],
+          "value_at_1000": 55564.02470999992
+        },
+        "('L+', 2, 1)": {
+          "ok": true,
+          "max_abs_analytic": 2.42033992384206
+        },
+        "('BOBROT', 1, 1)": {
+          "ok": true,
+          "max_abs": 0.0009132566682717355
+        }
+      }
+    },
+    "unchanged_fields": {
+      "('POTEN', 1, 1)": true,
+      "('BOBROT', 1, 1)": true
+    },
+    "native_validation": {
+      "count": 1834,
+      "positive_weight_count": 1822,
+      "rms_cm": 0.45158420463456106,
+      "weighted_rms_cm": 0.4509957295212156,
+      "max_abs_cm": 11.785176332610718,
+      "assignment_mismatches": 0,
+      "marked_count": 0,
+      "unmatched_positive_weight_count": 0,
+      "state_v_mismatches": 0,
+      "zero_duo_weight_count": 0,
+      "inactive_unknown_state_rows": [],
+      "by_state": {
+        "1": {
+          "count": 731,
+          "positive_weight_count": 731,
+          "rms_cm": 0.002671572697390302,
+          "weighted_rms_cm": 0.002671572697390302,
+          "max_abs_cm": 0.018165159436648537,
+          "assignment_mismatches": 0,
+          "marked_count": 0,
+          "unmatched_positive_weight_count": 0,
+          "state_v_mismatches": 0,
+          "zero_duo_weight_count": 0
+        },
+        "2": {
+          "count": 1103,
+          "positive_weight_count": 1091,
+          "rms_cm": 0.5835761099848401,
+          "weighted_rms_cm": 0.5821758210852741,
+          "max_abs_cm": 11.785176332610718,
+          "assignment_mismatches": 0,
+          "marked_count": 0,
+          "unmatched_positive_weight_count": 0,
+          "state_v_mismatches": 0,
+          "zero_duo_weight_count": 0
+        }
+      },
+      "energy_precision": "native 12 decimal places"
+    },
+    "residual_statistics": {
+      "all": {
+        "count": 1840,
+        "positive_weight_count": 1828,
+        "rms_cm": 0.4512437750764847,
+        "weighted_rms_cm": 0.4512437750764847,
+        "median_abs_cm": 0.010593063081614673,
+        "p90_abs_cm": 0.09082018970584611,
+        "p95_abs_cm": 0.13616318145395778,
+        "max_abs_cm": 11.785176332610718,
+        "above_1_cm": 7,
+        "above_2_cm": 6
+      },
+      "by_state": {
+        "1": {
+          "count": 731,
+          "positive_weight_count": 731,
+          "rms_cm": 0.002671572697390302,
+          "weighted_rms_cm": 0.002671572697390302,
+          "median_abs_cm": 0.0012998759657421033,
+          "p90_abs_cm": 0.004333808552928531,
+          "p95_abs_cm": 0.004986247415217804,
+          "max_abs_cm": 0.018165159436648537,
+          "above_1_cm": 0,
+          "above_2_cm": 0
+        },
+        "2": {
+          "count": 1109,
+          "positive_weight_count": 1097,
+          "rms_cm": 0.5824960195731556,
+          "weighted_rms_cm": 0.5824960195731557,
+          "median_abs_cm": 0.034674478774832096,
+          "p90_abs_cm": 0.12466069198708282,
+          "p95_abs_cm": 0.17505569883069264,
+          "max_abs_cm": 11.785176332610718,
+          "above_1_cm": 7,
+          "above_2_cm": 6
+        }
+      }
+    },
+    "counts": [
+      {
+        "J": 1,
+        "below_dissociation": 20,
+        "inner_below_dissociation": 17,
+        "inner_below_barrier": 28,
+        "barrier_r": 2.553781856788996,
+        "barrier_absolute_cm": 61154.946724047506
+      },
+      {
+        "J": 61,
+        "below_dissociation": 14,
+        "inner_below_dissociation": 14,
+        "inner_below_barrier": 26,
+        "barrier_r": 2.549640434464507,
+        "barrier_absolute_cm": 62032.77552608684
+      },
+      {
+        "J": 83,
+        "below_dissociation": 11,
+        "inner_below_dissociation": 11,
+        "inner_below_barrier": 25,
+        "barrier_r": 2.5461301051644893,
+        "barrier_absolute_cm": 62775.81467377487
+      },
+      {
+        "J": 92,
+        "below_dissociation": 10,
+        "inner_below_dissociation": 10,
+        "inner_below_barrier": 24,
+        "barrier_r": 2.5443784090449566,
+        "barrier_absolute_cm": 63145.53539669887
+      }
+    ],
+    "observed_caps": [
+      {
+        "v": 0,
+        "J": 83,
+        "inner_probability": 0.9999999999999998,
+        "energy_cm": 47757.43900721446,
+        "barrier_margin_cm": 14618.228038621244,
+        "dissociation_margin_cm": 7406.438074846374
+      },
+      {
+        "v": 1,
+        "J": 92,
+        "inner_probability": 0.9999999999999989,
+        "energy_cm": 49352.460246581,
+        "barrier_margin_cm": 13392.927522178703,
+        "dissociation_margin_cm": 5811.416835479831
+      },
+      {
+        "v": 2,
+        "J": 92,
+        "inner_probability": 1.0000000000000007,
+        "energy_cm": 50083.93637322151,
+        "barrier_margin_cm": 12661.451395538192,
+        "dissociation_margin_cm": 5079.94070883932
+      },
+      {
+        "v": 3,
+        "J": 92,
+        "inner_probability": 1.0000000000000007,
+        "energy_cm": 50801.84670232872,
+        "barrier_margin_cm": 11943.541066430982,
+        "dissociation_margin_cm": 4362.03037973211
+      },
+      {
+        "v": 4,
+        "J": 83,
+        "inner_probability": 1.0000000000000002,
+        "energy_cm": 50691.68528372003,
+        "barrier_margin_cm": 11683.981762115676,
+        "dissociation_margin_cm": 4472.191798340806
+      },
+      {
+        "v": 5,
+        "J": 83,
+        "inner_probability": 1.0,
+        "energy_cm": 51390.83443032789,
+        "barrier_margin_cm": 10984.832615507818,
+        "dissociation_margin_cm": 3773.042651732947
+      },
+      {
+        "v": 6,
+        "J": 61,
+        "inner_probability": 1.0000000000000002,
+        "energy_cm": 50457.22058735027,
+        "barrier_margin_cm": 11175.40731079741,
+        "dissociation_margin_cm": 4706.656494710565
+      }
+    ]
+  },
+  "above_limit_1000": {
+    "label": "Lower barrier above dissociation",
+    "source": "C:\\Users\\Sergey\\Documents\\ChatGPT\\Duo\\AlF_refinement\\low_barrier\\refit_1000\\round_04_fraction_1",
+    "sha256": "a49deba2e1edcfcb7c0151a12af52bdac3d73c8caf0e11d31c5dd2f7889f1b42",
+    "minimum_absolute_cm": 43949.925740683946,
+    "minimum_r": 1.6484575665351313,
+    "barrier_absolute_cm": 56458.254299470245,
+    "barrier_r": 2.362417031089262,
+    "barrier_above_minimum_cm": 12508.3285587863,
+    "barrier_above_limit_cm": 894.2295894702474,
+    "extrema": [
+      [
+        1.64827,
+        43949.929502618885,
+        "min"
+      ],
+      [
+        2.36221,
+        56458.252757218565,
+        "max"
+      ],
+      [
+        3.1805399999999997,
+        55251.262020369686,
+        "min"
+      ]
+    ],
+    "finite_to_1000": true,
+    "default_shape_audit": {
+      "ok": false,
+      "range_angstrom": [
+        0.7,
+        1000
+      ],
+      "constraints": {
+        "barrier_r_min": 2.25,
+        "barrier_r_max": 2.9,
+        "barrier_above_limit_min": 2500,
+        "barrier_above_limit_max": 9000,
+        "outer_well_depth_max": 20
+      },
+      "fields": {
+        "1": {
+          "ok": true,
+          "extrema": [
+            [
+              1.6548399999999999,
+              0.03809012492166177,
+              "min"
+            ]
+          ],
+          "value_at_1000": 55564.02471
+        },
+        "2": {
+          "ok": false,
+          "extrema": [
+            [
+              1.649,
+              43949.957160510705,
+              "min"
+            ],
+            [
+              2.36294,
+              56458.24449291715,
+              "max"
+            ],
+            [
+              3.1805399999999997,
+              55251.262020369686,
+              "min"
+            ]
+          ],
+          "value_at_1000": 55564.02470999992
+        },
+        "('L+', 2, 1)": {
+          "ok": true,
+          "max_abs_analytic": 2.4236221562484106
+        },
+        "('BOBROT', 1, 1)": {
+          "ok": true,
+          "max_abs": 0.0009132566682717355
+        }
+      }
+    },
+    "unchanged_fields": {
+      "('POTEN', 1, 1)": true,
+      "('BOBROT', 1, 1)": true
+    },
+    "native_validation": {
+      "count": 1834,
+      "positive_weight_count": 1822,
+      "rms_cm": 0.4523327030064514,
+      "weighted_rms_cm": 0.4517292675229112,
+      "max_abs_cm": 11.786476897759712,
+      "assignment_mismatches": 0,
+      "marked_count": 0,
+      "unmatched_positive_weight_count": 0,
+      "state_v_mismatches": 0,
+      "zero_duo_weight_count": 0,
+      "inactive_unknown_state_rows": [],
+      "by_state": {
+        "1": {
+          "count": 731,
+          "positive_weight_count": 731,
+          "rms_cm": 0.0027444198692721383,
+          "weighted_rms_cm": 0.0027444198692721383,
+          "max_abs_cm": 0.018119974472028844,
+          "assignment_mismatches": 0,
+          "marked_count": 0,
+          "unmatched_positive_weight_count": 0,
+          "state_v_mismatches": 0,
+          "zero_duo_weight_count": 0
+        },
+        "2": {
+          "count": 1103,
+          "positive_weight_count": 1091,
+          "rms_cm": 0.5845431716770279,
+          "weighted_rms_cm": 0.5831225094467081,
+          "max_abs_cm": 11.786476897759712,
+          "assignment_mismatches": 0,
+          "marked_count": 0,
+          "unmatched_positive_weight_count": 0,
+          "state_v_mismatches": 0,
+          "zero_duo_weight_count": 0
+        }
+      },
+      "energy_precision": "native 12 decimal places"
+    },
+    "residual_statistics": {
+      "all": {
+        "count": 1840,
+        "positive_weight_count": 1828,
+        "rms_cm": 0.4519769105116868,
+        "weighted_rms_cm": 0.4519769105116868,
+        "median_abs_cm": 0.008676923371240264,
+        "p90_abs_cm": 0.07244432069273898,
+        "p95_abs_cm": 0.10541008743239214,
+        "max_abs_cm": 11.786476897759712,
+        "above_1_cm": 7,
+        "above_2_cm": 6
+      },
+      "by_state": {
+        "1": {
+          "count": 731,
+          "positive_weight_count": 731,
+          "rms_cm": 0.0027444198692721383,
+          "weighted_rms_cm": 0.002744419869272138,
+          "median_abs_cm": 0.0014320938830678642,
+          "p90_abs_cm": 0.004346677240050667,
+          "p95_abs_cm": 0.005179887191388843,
+          "max_abs_cm": 0.018119974472028844,
+          "above_1_cm": 0,
+          "above_2_cm": 0
+        },
+        "2": {
+          "count": 1109,
+          "positive_weight_count": 1097,
+          "rms_cm": 0.5834421883834616,
+          "weighted_rms_cm": 0.5834421883834616,
+          "median_abs_cm": 0.025904997455654666,
+          "p90_abs_cm": 0.09757642073964234,
+          "p95_abs_cm": 0.1478037772598328,
+          "max_abs_cm": 11.786476897759712,
+          "above_1_cm": 7,
+          "above_2_cm": 6
+        }
+      }
+    },
+    "counts": [
+      {
+        "J": 1,
+        "below_dissociation": 27,
+        "inner_below_dissociation": 17,
+        "inner_below_barrier": 19,
+        "barrier_r": 2.362417031089262,
+        "barrier_absolute_cm": 56458.254299470245
+      },
+      {
+        "J": 61,
+        "below_dissociation": 14,
+        "inner_below_dissociation": 14,
+        "inner_below_barrier": 18,
+        "barrier_r": 2.351060844854715,
+        "barrier_absolute_cm": 57487.438182656646
+      },
+      {
+        "J": 83,
+        "below_dissociation": 11,
+        "inner_below_dissociation": 11,
+        "inner_below_barrier": 17,
+        "barrier_r": 2.3423484666569294,
+        "barrier_absolute_cm": 58363.3832479294
+      },
+      {
+        "J": 92,
+        "below_dissociation": 10,
+        "inner_below_dissociation": 10,
+        "inner_below_barrier": 15,
+        "barrier_r": 2.3382455521802856,
+        "barrier_absolute_cm": 58800.70258821543
+      }
+    ],
+    "observed_caps": [
+      {
+        "v": 0,
+        "J": 83,
+        "inner_probability": 1.0,
+        "energy_cm": 47757.54357912571,
+        "barrier_margin_cm": 10205.692040864524,
+        "dissociation_margin_cm": 7406.333502935122
+      },
+      {
+        "v": 1,
+        "J": 92,
+        "inner_probability": 1.0000000000000002,
+        "energy_cm": 49352.495398956846,
+        "barrier_margin_cm": 9048.059561319416,
+        "dissociation_margin_cm": 5811.381683103988
+      },
+      {
+        "v": 2,
+        "J": 92,
+        "inner_probability": 1.0000000000000002,
+        "energy_cm": 50083.9133783369,
+        "barrier_margin_cm": 8316.641581939359,
+        "dissociation_margin_cm": 5079.96370372393
+      },
+      {
+        "v": 3,
+        "J": 92,
+        "inner_probability": 1.0000000000000002,
+        "energy_cm": 50801.82804931408,
+        "barrier_margin_cm": 7598.726910962185,
+        "dissociation_margin_cm": 4362.049032746756
+      },
+      {
+        "v": 4,
+        "J": 83,
+        "inner_probability": 0.9999999999999997,
+        "energy_cm": 50691.70460351524,
+        "barrier_margin_cm": 7271.531016474997,
+        "dissociation_margin_cm": 4472.172478545595
+      },
+      {
+        "v": 5,
+        "J": 83,
+        "inner_probability": 1.0,
+        "energy_cm": 51390.86447256716,
+        "barrier_margin_cm": 6572.371147423073,
+        "dissociation_margin_cm": 3773.0126094936713
+      },
+      {
+        "v": 6,
+        "J": 61,
+        "inner_probability": 1.0,
+        "energy_cm": 50457.18905497205,
+        "barrier_margin_cm": 6630.101499745433,
+        "dissociation_margin_cm": 4706.688027088785
+      }
+    ],
+    "relaxed_trial_shape_audit": {
+      "ok": true,
+      "range_angstrom": [
+        0.7,
+        1000
+      ],
+      "constraints": {
+        "barrier_r_min": 2.2,
+        "barrier_r_max": 2.7,
+        "barrier_above_limit_min": 700,
+        "barrier_above_limit_max": 1500,
+        "outer_well_depth_max": 500
+      },
+      "fields": {
+        "1": {
+          "ok": true,
+          "extrema": [
+            [
+              1.6548399999999999,
+              0.03809012492166177,
+              "min"
+            ]
+          ],
+          "value_at_1000": 55564.02471
+        },
+        "2": {
+          "ok": true,
+          "extrema": [
+            [
+              1.649,
+              43949.957160510705,
+              "min"
+            ],
+            [
+              2.36294,
+              56458.24449291715,
+              "max"
+            ],
+            [
+              3.1805399999999997,
+              55251.262020369686,
+              "min"
+            ]
+          ],
+          "value_at_1000": 55564.02470999992
+        },
+        "('L+', 2, 1)": {
+          "ok": true,
+          "max_abs_analytic": 2.4236221562484106
+        },
+        "('BOBROT', 1, 1)": {
+          "ok": true,
+          "max_abs": 0.0009132566682717355
+        }
+      }
+    }
+  },
+  "minimum_078": {
+    "label": "Approx. 0.78 eV above minimum",
+    "source": "C:\\Users\\Sergey\\Documents\\ChatGPT\\Duo\\AlF_refinement\\low_barrier\\native_central_078",
+    "sha256": "3d792a454d0b71bca072c271b05618cad080d11b59e6be89bf47c30316067557",
+    "minimum_absolute_cm": 43957.68161769997,
+    "minimum_r": 1.6485327399421246,
+    "barrier_absolute_cm": 50268.4843983287,
+    "barrier_r": 2.0995826821952233,
+    "barrier_above_minimum_cm": 6310.802780628728,
+    "barrier_above_limit_cm": -5295.540311671299,
+    "extrema": [
+      [
+        1.64827,
+        43957.68859655423,
+        "min"
+      ],
+      [
+        2.0994099999999998,
+        50268.48350621101,
+        "max"
+      ],
+      [
+        2.3600199999999996,
+        49747.78777322253,
+        "min"
+      ]
+    ],
+    "finite_to_1000": true,
+    "default_shape_audit": {
+      "ok": false,
+      "range_angstrom": [
+        0.7,
+        1000
+      ],
+      "constraints": {
+        "barrier_r_min": 2.25,
+        "barrier_r_max": 2.9,
+        "barrier_above_limit_min": 2500,
+        "barrier_above_limit_max": 9000,
+        "outer_well_depth_max": 20
+      },
+      "fields": {
+        "1": {
+          "ok": true,
+          "extrema": [
+            [
+              1.6548399999999999,
+              0.03809012492166177,
+              "min"
+            ]
+          ],
+          "value_at_1000": 55564.02471
+        },
+        "2": {
+          "ok": false,
+          "extrema": [
+            [
+              1.649,
+              43957.703659898245,
+              "min"
+            ],
+            [
+              2.1001399999999997,
+              50268.475131574174,
+              "max"
+            ],
+            [
+              2.3600199999999996,
+              49747.78777322253,
+              "min"
+            ]
+          ],
+          "value_at_1000": 55564.02470999992
+        },
+        "('L+', 2, 1)": {
+          "ok": true,
+          "max_abs_analytic": 2.42033992384206
+        },
+        "('BOBROT', 1, 1)": {
+          "ok": true,
+          "max_abs": 0.0009132566682717355
+        }
+      }
+    },
+    "unchanged_fields": {
+      "('POTEN', 1, 1)": true,
+      "('BOBROT', 1, 1)": true
+    },
+    "native_validation": {
+      "count": 1834,
+      "positive_weight_count": 1822,
+      "rms_cm": 8.808464953654427,
+      "weighted_rms_cm": 8.820222883431555,
+      "max_abs_cm": 47.5423977342507,
+      "assignment_mismatches": 0,
+      "marked_count": 0,
+      "unmatched_positive_weight_count": 0,
+      "state_v_mismatches": 0,
+      "zero_duo_weight_count": 0,
+      "inactive_unknown_state_rows": [],
+      "by_state": {
+        "1": {
+          "count": 731,
+          "positive_weight_count": 731,
+          "rms_cm": 0.0026933617123974713,
+          "weighted_rms_cm": 0.0026933617123974713,
+          "max_abs_cm": 0.018076218915666686,
+          "assignment_mismatches": 0,
+          "marked_count": 0,
+          "unmatched_positive_weight_count": 0,
+          "state_v_mismatches": 0,
+          "zero_duo_weight_count": 0
+        },
+        "2": {
+          "count": 1103,
+          "positive_weight_count": 1091,
+          "rms_cm": 11.383138857235261,
+          "weighted_rms_cm": 11.385820519640406,
+          "max_abs_cm": 47.5423977342507,
+          "assignment_mismatches": 0,
+          "marked_count": 0,
+          "unmatched_positive_weight_count": 0,
+          "state_v_mismatches": 0,
+          "zero_duo_weight_count": 0
+        }
+      },
+      "energy_precision": "native 12 decimal places"
+    },
+    "residual_statistics": {
+      "all": {
+        "count": 1840,
+        "positive_weight_count": 1828,
+        "rms_cm": 8.820235569978179,
+        "weighted_rms_cm": 8.820235569978179,
+        "median_abs_cm": 0.21879944834654452,
+        "p90_abs_cm": 12.022123381089477,
+        "p95_abs_cm": 25.18397999862245,
+        "max_abs_cm": 47.5423977342507,
+        "above_1_cm": 763,
+        "above_2_cm": 713
+      },
+      "by_state": {
+        "1": {
+          "count": 731,
+          "positive_weight_count": 731,
+          "rms_cm": 0.0026933617123974713,
+          "weighted_rms_cm": 0.002693361712397471,
+          "median_abs_cm": 0.0013352238738661981,
+          "p90_abs_cm": 0.004343350776252919,
+          "p95_abs_cm": 0.005000768314857851,
+          "max_abs_cm": 0.018076218915666686,
+          "above_1_cm": 0,
+          "above_2_cm": 0
+        },
+        "2": {
+          "count": 1109,
+          "positive_weight_count": 1097,
+          "rms_cm": 11.385836896408906,
+          "weighted_rms_cm": 11.385836896408904,
+          "median_abs_cm": 4.856625511733,
+          "p90_abs_cm": 18.157050502802292,
+          "p95_abs_cm": 27.75852054710995,
+          "max_abs_cm": 47.5423977342507,
+          "above_1_cm": 763,
+          "above_2_cm": 713
+        }
+      }
+    },
+    "counts": [
+      {
+        "J": 1,
+        "below_dissociation": 46,
+        "inner_below_dissociation": 9,
+        "inner_below_barrier": 9,
+        "barrier_r": 2.0995826821952233,
+        "barrier_absolute_cm": 50268.4843983287
+      },
+      {
+        "J": 61,
+        "below_dissociation": 32,
+        "inner_below_dissociation": 8,
+        "inner_below_barrier": 8,
+        "barrier_r": 2.0806851097393753,
+        "barrier_absolute_cm": 51577.20122729219
+      },
+      {
+        "J": 83,
+        "below_dissociation": 26,
+        "inner_below_dissociation": 8,
+        "inner_below_barrier": 7,
+        "barrier_r": 2.066823547243673,
+        "barrier_absolute_cm": 52699.00289992204
+      },
+      {
+        "J": 92,
+        "below_dissociation": 23,
+        "inner_below_dissociation": 7,
+        "inner_below_barrier": 7,
+        "barrier_r": 2.0604580888547126,
+        "barrier_absolute_cm": 53261.44728064865
+      }
+    ],
+    "observed_caps": [
+      {
+        "v": 0,
+        "J": 83,
+        "inner_probability": 0.9999999999999527,
+        "energy_cm": 47757.38915061666,
+        "barrier_margin_cm": 4541.466121366211,
+        "dissociation_margin_cm": 7406.487931444171
+      },
+      {
+        "v": 1,
+        "J": 92,
+        "inner_probability": 0.9999999999707267,
+        "energy_cm": 49353.27579088322,
+        "barrier_margin_cm": 3508.0238618262665,
+        "dissociation_margin_cm": 5810.601291177612
+      },
+      {
+        "v": 2,
+        "J": 92,
+        "inner_probability": 0.9999999969116385,
+        "energy_cm": 50094.34241411613,
+        "barrier_margin_cm": 2766.957238593357,
+        "dissociation_margin_cm": 5069.534667944703
+      },
+      {
+        "v": 3,
+        "J": 92,
+        "inner_probability": 0.9999997694569623,
+        "energy_cm": 50820.36878213364,
+        "barrier_margin_cm": 2040.930870575845,
+        "dissociation_margin_cm": 4343.508299927191
+      },
+      {
+        "v": 4,
+        "J": 83,
+        "inner_probability": 0.9999956174728878,
+        "energy_cm": 50705.75580917052,
+        "barrier_margin_cm": 1593.0994628123517,
+        "dissociation_margin_cm": 4458.121272890312
+      },
+      {
+        "v": 5,
+        "J": 83,
+        "inner_probability": 0.5406453766415211,
+        "energy_cm": 51377.89898303171,
+        "barrier_margin_cm": 920.9562889511653,
+        "dissociation_margin_cm": 3785.9780990291256
+      },
+      {
+        "v": 6,
+        "J": 61,
+        "inner_probability": 0.9995656549443233,
+        "energy_cm": 50409.692451337534,
+        "barrier_margin_cm": 767.3611480154941,
+        "dissociation_margin_cm": 4754.184630723299
+      }
+    ],
+    "relaxed_trial_shape_audit": {
+      "ok": true,
+      "range_angstrom": [
+        0.7,
+        1000
+      ],
+      "constraints": {
+        "barrier_r_min": 1.98,
+        "barrier_r_max": 2.2,
+        "barrier_above_limit_min": -5600,
+        "barrier_above_limit_max": -4950,
+        "outer_well_depth_max": 6500
+      },
+      "fields": {
+        "1": {
+          "ok": true,
+          "extrema": [
+            [
+              1.6548399999999999,
+              0.03809012492166177,
+              "min"
+            ]
+          ],
+          "value_at_1000": 55564.02471
+        },
+        "2": {
+          "ok": true,
+          "extrema": [
+            [
+              1.649,
+              43957.703659898245,
+              "min"
+            ],
+            [
+              2.1001399999999997,
+              50268.475131574174,
+              "max"
+            ],
+            [
+              2.3600199999999996,
+              49747.78777322253,
+              "min"
+            ]
+          ],
+          "value_at_1000": 55564.02470999992
+        },
+        "('L+', 2, 1)": {
+          "ok": true,
+          "max_abs_analytic": 2.42033992384206
+        },
+        "('BOBROT', 1, 1)": {
+          "ok": true,
+          "max_abs": 0.0009132566682717355
+        }
+      }
+    }
+  },
+  "minimum_5800": {
+    "label": "5800 cm\u207b\u00b9 above minimum",
+    "source": "C:\\Users\\Sergey\\Documents\\ChatGPT\\Duo\\AlF_refinement\\low_barrier\\native_exact_5800",
+    "sha256": "c48d8429ff10e3d245bf246f7ae7a00c70f95ac7f7c72aba8ffd34c694eb3e05",
+    "minimum_absolute_cm": 43962.308348649734,
+    "minimum_r": 1.6490280522369998,
+    "barrier_absolute_cm": 49762.480497338336,
+    "barrier_r": 2.060848748917688,
+    "barrier_above_minimum_cm": 5800.172148688602,
+    "barrier_above_limit_cm": -5801.544212661662,
+    "extrema": [
+      [
+        1.649,
+        43962.30842525115,
+        "min"
+      ],
+      [
+        2.06072,
+        49762.47987869302,
+        "max"
+      ],
+      [
+        2.24103,
+        49404.09540373571,
+        "min"
+      ]
+    ],
+    "finite_to_1000": true,
+    "default_shape_audit": {
+      "ok": false,
+      "range_angstrom": [
+        0.7,
+        1000
+      ],
+      "constraints": {
+        "barrier_r_min": 2.25,
+        "barrier_r_max": 2.9,
+        "barrier_above_limit_min": 2500,
+        "barrier_above_limit_max": 9000,
+        "outer_well_depth_max": 20
+      },
+      "fields": {
+        "1": {
+          "ok": true,
+          "extrema": [
+            [
+              1.6548399999999999,
+              0.03809012492166177,
+              "min"
+            ]
+          ],
+          "value_at_1000": 55564.02471
+        },
+        "2": {
+          "ok": false,
+          "extrema": [
+            [
+              1.649,
+              43962.30842525115,
+              "min"
+            ],
+            [
+              2.06072,
+              49762.47987869302,
+              "max"
+            ],
+            [
+              2.2403,
+              49404.11029001953,
+              "min"
+            ]
+          ],
+          "value_at_1000": 55564.02470999992
+        },
+        "('L+', 2, 1)": {
+          "ok": true,
+          "max_abs_analytic": 2.42033992384206
+        },
+        "('BOBROT', 1, 1)": {
+          "ok": true,
+          "max_abs": 0.0009132566682717355
+        }
+      }
+    },
+    "unchanged_fields": {
+      "('POTEN', 1, 1)": true,
+      "('BOBROT', 1, 1)": true
+    },
+    "native_validation": {
+      "count": 1834,
+      "positive_weight_count": 1822,
+      "rms_cm": 14.370643205264663,
+      "weighted_rms_cm": 14.384722136104312,
+      "max_abs_cm": 114.48618888241617,
+      "assignment_mismatches": 0,
+      "marked_count": 0,
+      "unmatched_positive_weight_count": 0,
+      "state_v_mismatches": 0,
+      "zero_duo_weight_count": 0,
+      "inactive_unknown_state_rows": [],
+      "by_state": {
+        "1": {
+          "count": 731,
+          "positive_weight_count": 731,
+          "rms_cm": 0.0027019779821523308,
+          "weighted_rms_cm": 0.0027019779821523308,
+          "max_abs_cm": 0.01804341613114957,
+          "assignment_mismatches": 0,
+          "marked_count": 0,
+          "unmatched_positive_weight_count": 0,
+          "state_v_mismatches": 0,
+          "zero_duo_weight_count": 0
+        },
+        "2": {
+          "count": 1103,
+          "positive_weight_count": 1091,
+          "rms_cm": 18.571116515987303,
+          "weighted_rms_cm": 18.568903363246232,
+          "max_abs_cm": 114.48618888241617,
+          "assignment_mismatches": 0,
+          "marked_count": 0,
+          "unmatched_positive_weight_count": 0,
+          "state_v_mismatches": 0,
+          "zero_duo_weight_count": 0
+        }
+      },
+      "energy_precision": "native 12 decimal places"
+    },
+    "residual_statistics": {
+      "all": {
+        "count": 1840,
+        "positive_weight_count": 1828,
+        "rms_cm": 14.384729915067156,
+        "weighted_rms_cm": 14.384729915067156,
+        "median_abs_cm": 0.21527666024121572,
+        "p90_abs_cm": 18.300126961497877,
+        "p95_abs_cm": 38.203091295595,
+        "max_abs_cm": 114.48618888241617,
+        "above_1_cm": 790,
+        "above_2_cm": 747
+      },
+      "by_state": {
+        "1": {
+          "count": 731,
+          "positive_weight_count": 731,
+          "rms_cm": 0.0027019779821523308,
+          "weighted_rms_cm": 0.0027019779821523308,
+          "median_abs_cm": 0.0013614182735182112,
+          "p90_abs_cm": 0.004369832273027896,
+          "p95_abs_cm": 0.005159634371807442,
+          "max_abs_cm": 0.01804341613114957,
+          "above_1_cm": 0,
+          "above_2_cm": 0
+        },
+        "2": {
+          "count": 1109,
+          "positive_weight_count": 1097,
+          "rms_cm": 18.568913404928647,
+          "weighted_rms_cm": 18.56891340492865,
+          "median_abs_cm": 7.375397788229748,
+          "p90_abs_cm": 28.23097686722756,
+          "p95_abs_cm": 43.28681059162337,
+          "max_abs_cm": 114.48618888241617,
+          "above_1_cm": 790,
+          "above_2_cm": 747
+        }
+      }
+    },
+    "counts": [
+      {
+        "J": 1,
+        "below_dissociation": 44,
+        "inner_below_dissociation": 8,
+        "inner_below_barrier": 8,
+        "barrier_r": 2.060848748917688,
+        "barrier_absolute_cm": 49762.480497338336
+      },
+      {
+        "J": 61,
+        "below_dissociation": 29,
+        "inner_below_dissociation": 8,
+        "inner_below_barrier": 7,
+        "barrier_r": 2.0447541077226417,
+        "barrier_absolute_cm": 51119.15863460359
+      },
+      {
+        "J": 83,
+        "below_dissociation": 22,
+        "inner_below_dissociation": 7,
+        "inner_below_barrier": 6,
+        "barrier_r": 2.0328150540442227,
+        "barrier_absolute_cm": 52279.73982076595
+      },
+      {
+        "J": 92,
+        "below_dissociation": 19,
+        "inner_below_dissociation": 7,
+        "inner_below_barrier": 6,
+        "barrier_r": 2.0272865546261434,
+        "barrier_absolute_cm": 52860.94765102605
+      }
+    ],
+    "observed_caps": [
+      {
+        "v": 0,
+        "J": 83,
+        "inner_probability": 0.9999999999987605,
+        "energy_cm": 47757.09425449807,
+        "barrier_margin_cm": 4122.497938328714,
+        "dissociation_margin_cm": 7406.782827562762
+      },
+      {
+        "v": 1,
+        "J": 92,
+        "inner_probability": 0.9999999987229176,
+        "energy_cm": 49355.66781932803,
+        "barrier_margin_cm": 3105.1322037588543,
+        "dissociation_margin_cm": 5808.209262732802
+      },
+      {
+        "v": 2,
+        "J": 92,
+        "inner_probability": 0.9999998992457233,
+        "energy_cm": 50101.53875559128,
+        "barrier_margin_cm": 2359.2612674956035,
+        "dissociation_margin_cm": 5062.338326469551
+      },
+      {
+        "v": 3,
+        "J": 92,
+        "inner_probability": 0.9999941538984081,
+        "energy_cm": 50830.58533400426,
+        "barrier_margin_cm": 1630.2146890826261,
+        "dissociation_margin_cm": 4333.291748056574
+      },
+      {
+        "v": 4,
+        "J": 83,
+        "inner_probability": 0.9999391746841733,
+        "energy_cm": 50712.3726176054,
+        "barrier_margin_cm": 1167.2195752213884,
+        "dissociation_margin_cm": 4451.504464455436
+      },
+      {
+        "v": 5,
+        "J": 83,
+        "inner_probability": 0.9946005760931902,
+        "energy_cm": 51367.06126191929,
+        "barrier_margin_cm": 512.5309309074946,
+        "dissociation_margin_cm": 3796.8158201415426
+      },
+      {
+        "v": 6,
+        "J": 61,
+        "inner_probability": 0.938892625618929,
+        "energy_cm": 50378.72811785082,
+        "barrier_margin_cm": 340.2828888136064,
+        "dissociation_margin_cm": 4785.148964210013
+      }
+    ],
+    "relaxed_trial_shape_audit": {
+      "ok": true,
+      "range_angstrom": [
+        0.7,
+        1000
+      ],
+      "constraints": {
+        "barrier_r_min": 1.96,
+        "barrier_r_max": 2.2,
+        "barrier_above_limit_min": -6100,
+        "barrier_above_limit_max": -5500,
+        "outer_well_depth_max": 7200
+      },
+      "fields": {
+        "1": {
+          "ok": true,
+          "extrema": [
+            [
+              1.6548399999999999,
+              0.03809012492166177,
+              "min"
+            ]
+          ],
+          "value_at_1000": 55564.02471
+        },
+        "2": {
+          "ok": true,
+          "extrema": [
+            [
+              1.649,
+              43962.30842525115,
+              "min"
+            ],
+            [
+              2.06072,
+              49762.47987869302,
+              "max"
+            ],
+            [
+              2.2403,
+              49404.11029001953,
+              "min"
+            ]
+          ],
+          "value_at_1000": 55564.02470999992
+        },
+        "('L+', 2, 1)": {
+          "ok": true,
+          "max_abs_analytic": 2.42033992384206
+        },
+        "('BOBROT', 1, 1)": {
+          "ok": true,
+          "max_abs": 0.0009132566682717355
+        }
+      }
+    }
+  },
+  "validation": {
+    "radial_rmax": 8,
+    "npoints": 801,
+    "inner_probability_threshold": 0.5,
+    "energy_zero": "X v=0 J=0 for level tables; X potential minimum for PEC heights",
+    "zpe": 400.147627939163,
+    "dissociation_absolute": 55564.02471,
+    "convergence": {
+      "grid1001": {
+        "inner_below_barrier": 8,
+        "below_limit_finite_box": 44,
+        "max_inner_energy_change_cm": 0.0
+      },
+      "box12": {
+        "inner_below_barrier": 8,
+        "below_limit_finite_box": 45,
+        "max_inner_energy_change_cm": 0.0
+      },
+      "native_J1": {
+        "below_limit": 44,
+        "flag_b": 37,
+        "max_inner_DVR_difference_cm": 4.960020305588841e-07,
+        "max_full_DVR_difference_cm": 0.006693984003504738
+      },
+      "native_observed_levels": {
+        "npoints": 1001,
+        "vmax": 180,
+        "max_energy_change_cm": 2.3966640583239496e-07
+      }
+    },
+    "count_note": "Finite-box totals are lower bounds, not converged global bound-state counts. Above-barrier Pinner is not a vibrational quantum number."
+  }
+}

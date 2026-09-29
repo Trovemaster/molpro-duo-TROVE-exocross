@@ -1,0 +1,61 @@
+{
+  "source_columns_one_based": [
+    7,
+    8
+  ],
+  "point_count": 66,
+  "source_sha256": "581b7e8593afa721d9d170d73c243141006c8faaa90f10ad6cafb3650eb686be",
+  "sampled_minimum": {
+    "r_angstrom": 1.66,
+    "energy_cm": -9771.8
+  },
+  "sampled_barrier": {
+    "r_angstrom": 2.55,
+    "energy_cm": 815.72,
+    "height_above_sampled_minimum_cm": 10587.519999999999,
+    "height_above_last_point_cm": 842.14
+  },
+  "endpoint": {
+    "r_angstrom": 9.0,
+    "energy_cm": -26.42,
+    "shifted_energy_cm": 53695.3735827209,
+    "depth_above_sampled_minimum_cm": 9745.38,
+    "note": "Finite-distance endpoint, not an independently established asymptote"
+  },
+  "interpolated_extrema_for_comparison_only": {
+    "minimum_r": 1.669317048868444,
+    "minimum_cm": -9780.123279899104,
+    "maximum_r": 2.5492107186816773,
+    "maximum_cm": 815.7238391160772
+  },
+  "model_te_cm": 43949.99358272087,
+  "shift_cm": 53721.79358272087,
+  "model_fixed_dissociation_cm": 55564.02471,
+  "endpoint_minus_model_dissociation_cm": -1868.6511272790958,
+  "source_sampled_A_minus_X_minima_cm": 47917.979999999996,
+  "paper_table2": {
+    "A_Te_cm": 44542.07,
+    "A_De_cm": 13682.94,
+    "note": "Table values disagree with the supplied grid; no reconciliation assumed."
+  },
+  "validation": {
+    "PS1997": {
+      "native_returncode": 0,
+      "genuine_points": 66,
+      "synthetic_points": 20,
+      "positive_weight_synthetic_points": 20,
+      "spectrum_identical_to_baseline": true,
+      "source_parameters_and_observations_unchanged": true,
+      "original_weight_experimental_rms_cm": 0.4509957295212156
+    },
+    "fixed_weights": {
+      "native_returncode": 0,
+      "genuine_points": 66,
+      "synthetic_points": 20,
+      "positive_weight_synthetic_points": 0,
+      "spectrum_identical_to_baseline": true,
+      "source_parameters_and_observations_unchanged": true,
+      "original_weight_experimental_rms_cm": 0.4509957295212156
+    }
+  }
+}

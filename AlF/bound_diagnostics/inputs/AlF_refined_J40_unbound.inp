@@ -1,0 +1,202 @@
+PRINT_ROVIBRONIC_ENERGIES_TO_FILE
+PRINT_PECS_AND_COUPLINGS_TO_FILE
+atoms Al F
+ (Total number of states taken into account)
+ nstates 2
+
+
+ (Total angular momentum quantum  - a value or an interval)
+jrot 0 - 40
+
+
+ (Defining the integration grid)
+ grid
+ npoints 1001
+ range 0.7 8
+   type 0
+end
+
+
+DIAGONALIZER 
+ SYEV
+end
+
+(Vibrational basis set)
+ CONTRACTION
+  vib
+ vmax 100 100
+end
+
+symmetry Cs(M)
+
+poten 1
+name "X1Sigma+"
+lambda 0
+mult 1
+symmetry +
+type EMO
+values
+V0       0.00000000000000E+00
+RE       1.65424142969180E+00
+AE       5.55640247100000E+04
+RREF     -1.00000000000000E+00
+PL       6.00000000000000E+00
+PR       6.00000000000000E+00
+NL 8
+NR 8
+B0       1.38402688776593E+00
+B1       -2.06982767511966E-01
+B2       2.95467011115265E-03
+B3       -4.92624188046180E-02
+B4       4.40770185579243E-03
+B5       -6.48941395235367E-02
+B6       1.91478355163277E-02
+B7 7.82140785368629E-03
+B8 -1.02798603407359E-02
+end
+poten 2
+name "A1Pi"
+lambda 1
+mult 1
+type coupled-pec
+sub-types EMO repulsive_exp EMO
+Nparameters 15 12 13
+values
+V0       4.39503606528404E+04
+RE       1.64859417833162E+00
+AE       8.00000000000000E+04
+RREF     -1.00000000000000E+00
+PL       6.00000000000000E+00
+PR       6.00000000000000E+00
+NL       6.00000000000000E+00
+NR       6.00000000000000E+00
+B0       1.72332070532353E+00
+B1       -1.42604987272534E-01
+B2       -2.90915907282048E-02
+B3       2.21546971682885E-02
+B4       -3.10951579640886E-01
+B5       -9.84484263982231E-01
+B6       1.29785477815086E+00
+V0       5.55640247100000E+04
+A        2.27334132048666E+07
+DELTA    3.00000000000000E-01
+GAMMA    8.00000000000000E+00
+B1       0.00000000000000E+00
+B2       0.00000000000000E+00
+B3       0.00000000000000E+00
+B4       0.00000000000000E+00
+B5       -7.34959702828864E+04
+B6       -3.62561919802783E+05
+B7       0.00000000000000E+00
+B8       0.00000000000000E+00
+V0       3.00000000000000E+03
+RE       2.55000000000000E+00
+AE       0.00000000000000E+00
+RREF     -1.00000000000000E+00
+PL       6.00000000000000E+00
+PR       6.00000000000000E+00
+NL       4.00000000000000E+00
+NR       4.00000000000000E+00
+B0       8.00000000000000E-01
+B1       0.00000000000000E+00
+B2       0.00000000000000E+00
+B3       0.00000000000000E+00
+B4       0.00000000000000E+00
+COMPON   1.00000000000000E+00
+end
+Lx  2 1
+name "<A1Pi|Lxy|X1Sigma>"
+lambda  1 0
+spin   0 0
+type  BOBLEROY
+factor    i   (0, 1 or i)
+<x|Lz|y>   -i  0
+values
+RE            1.64850000000000E+00
+RREF         -1
+P             4
+NT            2
+B0            1.73325861791746E+00
+B1            0
+B2            0.0
+B3            0.0
+BINF          1.0
+END
+
+bob-rot  1 1
+name "<X1Si|LSZ|X1Si>"
+spin   0   0
+lambda  0 0
+factor    1.0   (0, 1 or i)
+type polynom_decay_24
+values
+RE           1.65436800000000E+00
+BETA         8.00000000000000E-01
+GAMMA        2.00000000000000E-02
+P            6.00000000000000E+00
+B0           0.00000000000000E+00       (  8.00400819545691e-03)  
+B1           -2.92929889697893E-04 fit       (  9.36933171638878e-03)  
+B2           1.44165025674272E-03 fit       (  3.33660100683203e-02)  
+B3           0.00000000000000E+00
+BINF         0.00000000000000E+00
+end
+
+
+dipole 1 1
+name '<X1Sigma+|DMZ|X1Sigma+>'
+spin 0 0
+lambda 0 0
+type	grid
+values
+   1.40924            0.10577281
+   1.44069            0.16075241
+   1.47959            0.23188714
+   1.53363            0.33615057
+   1.59644            0.46470384
+   1.654368           0.58962678
+   1.71957            0.73670313
+   1.79302            0.90924134
+   1.87593            1.11162354
+   1.96968            1.34765069
+   2.05309            1.56206989
+   2.12046            1.73704419
+end
+
+
+dipole  1 2
+name "<X1Sigma|DMZ|A1Pi>"
+spin   0.0 0.0
+lambda  0  1
+type   grid
+values
+ 1.40924   1.63689
+ 1.44069   1.62501
+ 1.47959   1.60894
+ 1.53363   1.58525
+ 1.59644   1.55581
+1.654368   1.52675
+ 1.71957   1.49149
+ 1.79302   1.44777
+ 1.87593   1.39116
+ 1.96968   1.31417
+ 2.05309   1.22982
+ 2.12046   1.14854
+end
+
+INTENSITY
+absorption
+unbound
+states_only
+THRESH_DELTA_R 1
+THRESH_BOUND 0.01
+THRESH_INTES 1e-80
+THRESH_LINE 1e-60
+TEMPERATURE 2000
+thresh_dipole 1e-9
+THRESH_bound_rmax 4
+print_bound_density
+linelist AlF_refined_J40_unbound
+J, 0, 40
+freq-window 0, 70000
+energy low -0.001, 56000.00, upper -0.00, 70000
+END

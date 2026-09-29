@@ -1,0 +1,30 @@
+{
+  "selected_model_unchanged_sha256": "50b4a8c3255b49a51827cf5115cd1abdd20246f274fe2f3d91ddc1ac61ccee2d",
+  "source_sha256": "581b7e8593afa721d9d170d73c243141006c8faaa90f10ad6cafb3650eb686be",
+  "point_count": 66,
+  "raw_runs": "AlF/pecfit_runs/qin_2022",
+  "selected": false,
+  "files_sha256": {
+    "A_original_angstrom_cm-1.dat": "c031a4d4d298e7b60523a1426c464dcba892fccb4cb850fcec772f3136410f60",
+    "diagnostics.json": "0dae2b96542c9001b72f6d20da8cdd199de42043975154080b48c2d0a7bb3097",
+    "extraction.json": "d386373b00b3d80b31cf3bccffef37e6703a495e40f10b0ed6b83ad0b1e61708",
+    "Potential_energy_original.txt": "581b7e8593afa721d9d170d73c243141006c8faaa90f10ad6cafb3650eb686be",
+    "README.md": "b736055430007963f42dc49b5b04acbd90ca2e745cb5695417123373913729bb",
+    "reference_comparison.png": "bca1cd7da85457179c33b6677d6c636f0492e59e5f6ff364a52c1fa58b719152",
+    "TRIAL.md": "36a893fe48e082e0c769099aea0b0906e6eeb490b18865d9a74f3e1accd3b611",
+    "trial_result.json": "32c73770076458f4ef046ea14a7d3db378cc78fe458f1ac1c1bf13693fe60879",
+    "inputs\\AlF_with_reference_fixed_weights.inp": "3e10374099a03e084cb566496b813f3a761090b0b638cf7aa5ec3ca82ccc9ed0",
+    "inputs\\AlF_with_reference_PS1997.inp": "a72be63a3c05003280188458b5e20c2c34b0bb59c3a714f06efd55848f70c054",
+    "inputs\\A_reference_angstrom_cm-1.dat": "c5e9d770cd55b271e75c9d9ed1db066a22b40944b0106218d3407384b85748da",
+    "inputs\\A_reference_fixed_weights.inp": "8b29972cf177a5e566b6758f45cac34771a0f5e0fbae2e0ef15e15bda6bcd12d",
+    "inputs\\A_reference_PS1997.inp": "0bd8ecc61108f9b37fcbb94356ff9796c04a312275ca0ea90226d81d945e0b10",
+    "inputs\\conversion.json": "12afbad55a8d07c7559a30843db511409531a34b8ba9ace895c84a5fcb3042c6"
+  },
+  "tools_sha256": {
+    "add_abinitio_reference.py": "d14cfdccce7dfc4f1088c7858838ec179636f86a803388ea621d7b75f03699a0",
+    "prepare_qin_reference.py": "8825a95644157ef1851ab6d299f89a8a7c0b4ec186e6e17de4a29c87deaa2c1d",
+    "analyze_qin_reference.py": "6286e68bd22ec08e3dd8302ccc9687f6a4d03acf792f9634d0df774dbadacfce",
+    "trial_abinitio_reference.py": "fde9d73fc401361665ff1c6ad224b05d0763f34243d173cccac3a60a83297c78",
+    "test_abinitio_reference.py": "aa42e75afc9eb09c251b1dfd7258423fae269854f29845c018efa7c652524d7d"
+  }
+}

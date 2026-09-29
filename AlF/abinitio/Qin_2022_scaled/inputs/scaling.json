@@ -1,0 +1,26 @@
+{
+  "model_sha256": "50b4a8c3255b49a51827cf5115cd1abdd20246f274fe2f3d91ddc1ac61ccee2d",
+  "data_sha256": "c031a4d4d298e7b60523a1426c464dcba892fccb4cb850fcec772f3136410f60",
+  "target_te": 43949.99358272087,
+  "target_re": 1.6485000591044585,
+  "target_asymptote": 55564.02471,
+  "target_A_depth": 11614.03112727913,
+  "reference_minimum": -9771.8,
+  "minimum_convention": "sampled minimum; interpolation may lie slightly lower",
+  "curves": {
+    "nominal_zero": {
+      "source_asymptote": 0.0,
+      "source_depth": 9771.8,
+      "scale": 1.1885252591415225,
+      "sampled_barrier_cm": 56533.52853438692,
+      "endpoint_cm": 55532.62387265348
+    },
+    "endpoint": {
+      "source_asymptote": -26.42,
+      "source_depth": 9745.38,
+      "scale": 1.1917473846355022,
+      "sampled_barrier_cm": 56567.64285249694,
+      "endpoint_cm": 55564.02471
+    }
+  }
+}

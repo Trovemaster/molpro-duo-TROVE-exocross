@@ -1,0 +1,15 @@
+#!/bin/csh
+
+
+set script = $1
+set N = $2
+set Nmax = $3
+set step = 1
+set Nmax = `expr $Nmax + $step`
+
+while ($N<$Nmax);
+  echo $N;
+  ./$script $N $4 $5
+  set N = `expr $N + $step`
+end
+      

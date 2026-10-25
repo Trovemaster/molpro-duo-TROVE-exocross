@@ -1,0 +1,4 @@
+1027 symmetrised terms; nonlinear: {'rCOe': 1.42167424, 'rOHe': 0.95631449, 'rCH': 1.09061196, 'aHOC': 108.10245297, 'aHCO': 110.28972802, 'a1': 2.17023887, 'a2': 2.55392176, 'b1': 1.85744195}
+expanded into 5491 monomials; 4603 kept (|c| >= 1e-08)
+check on 3000 random points: max|V_sym - V_chk| = 1.528e-10 cm-1 (|V| up to 6.775e+04)
+wrote potential.chk and potential.chk.trove_coords
